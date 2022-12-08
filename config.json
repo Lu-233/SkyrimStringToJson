@@ -1,0 +1,9 @@
+{
+    "xml_folders": {
+        "ANK": "C:/Skyrim_Trans/汉化/ANK/xml",
+        "Official": "C:/Skyrim_Trans/汉化/官方繁体/xml",
+        "Reconquista": "C:/Skyrim_Trans/汉化/Reconquista/xml",
+        "Unofficial": "C:/Skyrim_Trans/汉化/Unofficial/xml"
+    },
+    "output": "C:/Skyrim_Trans/导出"
+}
