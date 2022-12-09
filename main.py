@@ -146,6 +146,9 @@ def dict_to_trans_by_type(pkg_data_dict, out_folder):
                         "EDID": item["EDID"],
                         "EN": item["Source"],
                     }
+                    if not isinstance(item["REC"], str):
+                        trans_by_type[type_key][key]["REC@id"] = item["REC"]["@id"]
+                        trans_by_type[type_key][key]["REC@idMax"] = item["REC"]["@idMax"]
                 trans_by_type[type_key][key][item["PKG"]] = item["Dest"]
 
     print("save full json file......")
